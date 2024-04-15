@@ -1,0 +1,76 @@
+body{
+ background-image: url("background.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 1000px;
+}
+
+.contenuto{
+    width: 800px;
+    height: 800px;
+    margin: auto;  
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+}
+
+#logo{
+    width: 250px;
+    display: inline-block;
+    margin: auto;
+}
+
+#Titolo{
+    color: lime;
+}
+
+.testa{
+    display: block;
+    height: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+nav{
+    background-color: lime;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.utente {
+    display: inline;
+    color: white;
+}
+
+#Gino22{
+    height: 30px;
+    border-radius: 5px;
+    background-color:orange ;
+    width: 40%;
+}
+
+#Mike24{
+    height: 30px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    width: 70%;
+}
+
+#Fede154{
+    height: 30px;
+    border-radius: 5px;
+    background-color:red ;
+    width: 20%;
+}
+
+h2{
+    display: inline-block;
+}
+
+
+p{
+    margin: auto;
+}

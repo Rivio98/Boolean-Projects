@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito di registrazione</title>
+</head>
+<body>
+  <h1><strong>Registrazione sito internet</strong></h1>
+  <hr>
+  <div>  
+  <form><!--inizio dati anagrafici-->
+    <div>
+
+      <input type="text"name="firstname" placeholder="inserisci il tuo nome" required minlength="3" maxlength="10">
+    
+    </div>  
+    
+    <div>
+    
+       <input type="text"name="lastname" placeholder="inserisci il tuo cognome" required minlength="3" maxlength="10">
+
+    </div>   
+      
+    <div>
+
+       <input type="email"name="email" placeholder="inserisci la tua email" required>
+    
+    </div>   
+    <!--selezione regione-->
+     <select name="regione" required>
+        <option value="00">Tutta Italia</option>
+        <option value="15">Sicilia</option>
+        <option value="12">Piemonte</option>
+        <option value="10">Marche</option>
+        <option value="19">Valle</option>
+        <option value="16">Toscana</option>
+        <option value="04">Campania</option>
+        <option value="13">Puglia</option>
+        <option value="20">Veneto</option>
+        <option value="09">Lombardia</option>
+        <option value="05">Emilia Romagna</option>
+        <option value="17">Trentino Alto Adige</option>
+        <option value="14">Sardegna</option>
+        <option value="11">Molise</option>
+        <option value="03">Calabria</option>
+        <option value="01">Abruzzo</option>
+        <option value="02">Basilicata</option>
+        <option value="06">Friuli Venezia Giulia</option>
+        <option value="07">Lazio</option>
+        <option value="08">Liguria</option>
+        <option value="18">Umbria</option>
+     </select><br>
+       <!--Età e termini-->
+       <div>
+        <input type="radio" name="età" id="0-18" value="0-18" required>0-18
+        <input type="radio" name="età" id="18" value="18" required>18
+        <input type="checkbox" required>Accetto i termini e condizioni
+       </div>
+         <input type="submit" value="Invia">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* intestazione font */
+header{
+    background-color: beige;
+    text-align: center;
+}
+
+hr{
+    border-color: orange;
+}
+
+main{
+    padding: 10px;
+}
+
+
+.Titolo-sezione{
+    color: orange;
+}

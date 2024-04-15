@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://i.imgur.com/ymPP8Ja.jpeg);
+}
+
+#Titolo1{
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 180px;
+    vertical-align: middle;
+}
+
+.contenitore{
+    width: 1000px;
+    height: auto;
+     margin: auto;
+}
+
+.Titoli{
+    color: white;
+}
+
+#count{
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.destro{
+    display: inline-block;
+    color: white;
+    width: 30%;
+}
+
+.sinistro{
+    display: inline-block;
+    color: white;
+    width: 68%;
+}
+
+.email.read{
+    background-color: rgba(100,149,237,0.4);
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 5px;
+}
+
+.email.unread{
+    background-color: rgba(255,118,121,0.4);
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.check{
+    vertical-align: middle;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
